@@ -1,0 +1,8 @@
+{
+  "query": "SELECT COUNT(*) as total, * FROM relatorios LIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user sGGArTUs1X3kguX.root --database HYAUDg7wkuuUEnQ7FikXnE --execute SELECT COUNT(*) as total, * FROM relatorios LIMIT 5;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 8122 (HY000) at line 1: Wildcard fields without any table name appears in wrong place"
+  ]
+}

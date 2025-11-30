@@ -1,0 +1,38 @@
+{
+  "query": "SELECT id, encarregado_nome, encarregado_sobrenome, viatura_prefixo, created_at FROM relatorios ORDER BY created_at DESC LIMIT 10;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user sGGArTUs1X3kguX.root --database HYAUDg7wkuuUEnQ7FikXnE --execute SELECT id, encarregado_nome, encarregado_sobrenome, viatura_prefixo, created_at FROM relatorios ORDER BY created_at DESC LIMIT 10;",
+  "rows": [
+    {
+      "id": "60001",
+      "encarregado_nome": "Pedro",
+      "encarregado_sobrenome": "Dirso",
+      "viatura_prefixo": "TRAIL 23 HUMAITÁ - 93002",
+      "created_at": "2025-11-30 05:20:00"
+    },
+    {
+      "id": "30001",
+      "encarregado_nome": "Pedro",
+      "encarregado_sobrenome": "Durei",
+      "viatura_prefixo": "TRAIL 23 HUMAITÁ - 93002",
+      "created_at": "2025-11-30 05:08:56"
+    },
+    {
+      "id": "2",
+      "encarregado_nome": "Pedro",
+      "encarregado_sobrenome": "Durso",
+      "viatura_prefixo": "AGUARDANDO_PREFIXOS",
+      "created_at": "2025-11-30 04:52:10"
+    },
+    {
+      "id": "1",
+      "encarregado_nome": "Pedro",
+      "encarregado_sobrenome": "Durso ",
+      "viatura_prefixo": "AGUARDANDO_PREFIXOS",
+      "created_at": "2025-11-30 04:51:37"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tencarregado_nome\tencarregado_sobrenome\tviatura_prefixo\tcreated_at\n60001\tPedro\tDirso\tTRAIL 23 HUMAITÁ - 93002\t2025-11-30 05:20:00\n30001\tPedro\tDurei\tTRAIL 23 HUMAITÁ - 93002\t2025-11-30 05:08:56\n2\tPedro\tDurso\tAGUARDANDO_PREFIXOS\t2025-11-30 04:52:10\n1\tPedro\tDurso \tAGUARDANDO_PREFIXOS\t2025-11-30 04:51:37\n",
+  "stderr": "",
+  "execution_time_ms": 49
+}
